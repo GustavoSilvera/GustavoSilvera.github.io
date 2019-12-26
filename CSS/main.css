@@ -155,15 +155,16 @@ a {
 }
 
 .content p {
-    font-size: 1.4em;
+    font-size: 2vmin;
 }
 .content img{
     border: 3px solid #000;
 }
 .content h1{
     font-family: Open Sans, Arial;
-    font-size: 3em;
     color: #000;
+    font-weight: bold;
+    font-size:6vmin;
     letter-spacing: 0.5vmin;
 }
 .content #banner{
@@ -190,10 +191,6 @@ a {
     font-size: 2vh;
     width: 90%;
 }
-#Intro h1{
-    font-size:6vh;
-    font-weight: bold;
-}
 #Intro img{
     width: 5%;
     height: auto;
@@ -201,11 +198,18 @@ a {
 #Intro p{
     margin: auto;
 }
+#Intro table{
+    width: 90%;
+    border: 0px solid #000;
+    margin: auto;
+}
 #Intro td{
     width: 60%;
     text-align: center;
     position: relative;
     display: block;
+    margin: auto;
+    border:0px solid #000;
 }
 
 /***************ABOUT*****************/
@@ -216,7 +220,7 @@ a {
 #About #left{
     width:30%;
 }
-#About table, th, td {
+#About table, #About th, #About td {
     margin: auto;
     border: 0px solid black;
     padding-left: 5%;
@@ -237,15 +241,19 @@ a {
     width: 30%;
     text-align: center;
     transition-duration: 0.4s;
-    z-scale:1;
+    z-scale:10;
     padding: 1%;
     display:inline-block; /*USE THIS TO RESIZE TABLES*/
+}
+#Projects a{
+    text-decoration: none;
+    z-scale: 10;
 }
 #Projects p{
     color: #000;
     font-size: 2vmin;
 }
-#Projects img, video{
+#Projects img, #Projects video{
     width: 80%;
     object-fit: cover;
     height: 22vh;
@@ -267,14 +275,14 @@ a {
 /**************RESUME****************/
 .resumeWrapper{
     position: relative;
-    height: 100vh;
+    height: 100vmin;
 }
 .resumeWrapper iframe{
     position: absolute;
     top: 0;
     left: 25%;
     width: 50%;
-    height: 100%;
+    height: 99.5vmin;
 }
 
 #Resume a{
