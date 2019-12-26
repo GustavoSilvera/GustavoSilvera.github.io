@@ -232,17 +232,18 @@ a {
     height: 90%;
     margin: auto;
 }
-#Projects th, td{
+#Projects th, #Projects td{
     margin: auto;
     width: 30%;
     text-align: center;
     transition-duration: 0.4s;
     z-scale:1;
-    padding: 1vh;
+    padding: 1%;
+    display:inline-block; /*USE THIS TO RESIZE TABLES*/
 }
 #Projects p{
     color: #000;
-    font-size: 2vh;
+    font-size: 2vmin;
 }
 #Projects img, video{
     width: 80%;
@@ -261,7 +262,7 @@ a {
 #Projects h3{
     color: #00C3FF;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 3vmin;
 }
 /**************RESUME****************/
 .resumeWrapper{
