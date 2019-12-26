@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*@font-face {
+    font-family: 'RoboTechGP';
+    src: url('../Fonts/ROBOTECH_GP.ttf') format('truetype');
+    src: url('../Fonts/ROBOTECH_GP.eot') format ('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+@keyframes bgcolor {
+    0% { background-color: #000 }
+    25% { background-color: #101010 }
+    50% { background-color: #202020 }
+    75% {background-color: #303030 }
+    100% { background-color: #202020 }
+}
+@keyframes rgb {
+    0% {background-color:#FF0000;}
+    11% {background-color:#E2571E;}
+    22% {background-color:#FF7F00;}
+    33% {background-color:#FFFF00;}
+    44% {background-color:#00FF00;}
+    55% {background-color:#96bf33;}
+    66% {background-color:#0000FF;}
+    77% {background-color:#4B0082;}
+    88% {background-color:#8B00FF;}
+    99% {background-color:#ffffff;}
+}
+@keyframes rgbTXT {
+    0% {color:#FF0000;}
+    11% {color:#E2571E;}
+    22% {color:#FF7F00;}
+    33% {color:#FFFF00;}
+    44% {color:#00FF00;}
+    55% {color:#96bf33;}
+    66% {color:#0000FF;}
+    77% {color:#4B0082;}
+    88% {color:#8B00FF;}
+    99% {color:#ffffff;}
+}
+body{
+   /* font-family:  'RoboTechGP', Open Sans, Arial;*/
+    overflow-x: hidden;
+    background-color: #202020;
+   /* -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;*/
+}
+a {
+    text-decoration : none;
+    color : inherit;
+}
+.intro {
+    background-size: normal;
+    background-attachment: fixed;
+}
+.background{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index: -100;
+    transition: opacity 3s;
+}
+#rainbowEgg {
+    font-family:  'RoboTechGP', Open Sans, Arial;
+    -webkit-animation: rgb 20s infinite;
+    animation: rgb 20s infinite;
+    opacity:0;
+}
+.rainbowEggTXT {
+    -webkit-animation: rgbTXT 0s infinite;
+    animation: rgbTXT 0s infinite;
+}
+
+.content {
+    z-index: 2;
+    padding-top: 0px;
+    background-color: #fff;
+}
+.content h2, .content p {
+    width: 100%;
+    margin: 0 auto;
+}
+.spacer {
+    height: 100vh;
+}
+.textbox{
+    width: 275px;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+/**************************** Header *****************************/
+.main-nav,
+.main {
+    position: relative;
+}
+.main-nav {
+    background: #050505;
+    height: 10.75vmin;
+    z-index: 150;
+    margin-bottom: -10.75vmin;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    opacity: 0.9;
+    font-size: 2vmin;
+}
+.main-nav-scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.main-nav h1{
+    font-family: 'RoboTechGP', Open Sans, Arial;
+    color: #fff;
+    letter-spacing: 0.5vmin;
+    text-align: center;
+    font-size: 3vmin;
+}
+.bannerBtn{
+    border-radius: 4px;
+    border: 5px;
+    padding: 1.5vmin;
+    font-family: 'RoboTechGP',Open Sans, Arial;
+    letter-spacing: 0.5vmin;
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+    outline: 5px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    font-size: 3vmin;
+}
+
+.bannerBtn:hover{
+    background-color: #23201F;
+    transform: scale(1.1);
+    color: #fff;
+    opacity: 1;
+}
+
+.bannerBtn:active{opacity: 0.5;}
+
+/**************************** Content *****************************/
+
+.content {
+    font-family: Open Sans, Arial;
+    text-align: center;
+    margin: auto; /*centered*/
+    width: 90%;
+    height: 100vh;
+}
+
+.content p {
+    font-size: 1.4em;
+}
+.content h1{
+    font-family: Open Sans, Arial;
+    font-size: 3em;
+    color: #000;
+    letter-spacing: 0.5vmin;
+}
+.content #banner{
+    font-size: 2.5vmin;
+    height: 10vmin;
+    text-align: center;
+    background: #333132;
+}
+
+.content #header {
+    vertical-align: top;
+    display: inline-block;
+    border: 5px solid #333132;
+    width: 15em;
+    height: 15em;
+    margin: 5px;
+    transition-duration: 0.4s;
+}
+/***************INTRO*****************/
+#Intro{
+    margin: auto;
+    padding-top: 16.5%;
+    background-color: #fff;
+    font-size: 2vh;
+}
+#Intro h1{
+    font-size:6vh;
+    font-weight: bold;
+}
+#Intro img{
+    width: 30%;
+    height: auto;
+}
+/***************ABOUT*****************/
+#About table{
+    width:90%;
+    background-color: #fff;
+}
+#About #left{
+    width:30%;
+}
+#About table, th, td {
+    margin: auto;
+    border: 1px solid black;
+}
+#About img{
+    width: 30%;
+    height: auto;
+}
+/**************PROJECTS***********/
+#Projects table{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+#Projects th, td{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    transition-duration: 0.4s;
+    background-color: #fff;
+    z-scale:1;
+    padding: 1vh;
+}
+#Projects p{
+    color: #000;
+    font-size: 2vh;
+}
+#Projects td:hover{
+    position:relative;
+    transform: scale(1.1);
+    background-color:#202020;
+    z-scale: 10 !important;
+}
+#Projects td:hover p{
+    color:#fff;
+}
+#Projects h3{
+    color: #00C3FF;
+    font-weight: bold;
+    font-size: 3vh;
+}
+/**************RESUME****************/
+.resumeWrapper{
+    position: relative;
+    height: 100vh;
+}
+.resumeWrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+}
+
+/**************************** Footer *****************************/
+
+#footer{
+    background-color: #202020;/*no fancy colours*/
+    min-height: 15vmin;
+    z-index: 10;
+}
+#footer p{
+    font-family: Sans-serif, Arial;
+    color: white;
+    font-size:2.5vmin;
+    padding:0.5vmin;
+}
+#footer table{
+    background-color: #202020;
+    width: auto;
+    margin: auto;
+    border: 0px solid #fff;
+}
+#footer td{
+    width: 10%;
+    background-color: #202020;
+}
+#footer a{
+    text-decoration: underline;
+    color: #0645AD;
+}
+#footer a:hover{
+    text-decoration: underline;
+    color: #7700ff;
+}
+#footer img{
+    position:inherit;
+    height:8vmin;
+    width:8vmin;
+    transition-duration: 0.2s;
+}
+#footer img:hover{
+    transform: scale(1.5,1.5);
+}
+#footer #header {
+    font-size: 2.6vmin;
+    text-align: center;
+    padding-bottom: 0.2vmin;
+}

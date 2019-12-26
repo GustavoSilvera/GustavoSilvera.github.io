@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Gustavo Silvera | 2020</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" type="image/png" href="Images/icon.png">
+    <link rel="stylesheet" href="CSS/main.css">
+    <!--<link rel="stylesheet" href="CSS/animate.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!--<nav class="main-nav" >
+	<h1 class="rainbowEggTXT"> Gustavo Silvera </h1>
+	<center>
+	  <table style = "width: 100%;">
+	    <td class = "bannerBtn" id = "TEAMBtn">
+	      <a href = "#team">
+		<h3 class="rainbowEggTXT" >About</h3>
+	      </a>
+	    </td>
+	    <td class = "bannerBtn" id = "ROBOTBtn">
+	      <a href = "#donate">
+		<h3 class="rainbowEggTXT">Projects</h3>
+	      </a>
+	    </td>
+	    <td class = "bannerBtn" id = "SPECIALBtn">
+	      <a href = "#special">
+		<h3 class="rainbowEggTXT">Resume</h3>
+	      </a>
+	    </td>
+	    <td class = "bannerBtn" id = "CONTACTBtn">
+	      <a href = "#contact">
+		<h3 class="rainbowEggTXT">Contact</h3>
+	      </a>
+	    </td>
+	  </table>
+	</center>
+    </nav>-->
+    
+    <!-------------------------Intro------------------------------>
+    <div id = "Intro" class="content">
+      <div class = "banner" >
+	<h1 class="rainbowEggTXT"> Gustavo Silvera </h1>
+      </div>
+      <p>
+	short bio and basic info
+      </p>
+    </div>
+    
+    <!-------------------------About------------------------------>
+    <div id = "About" class="content">
+      <div class = "banner" >
+	<h1 class="rainbowEggTXT"> About </h1>
+      </div>
+      <table id="About">
+	<td>
+	  <img src="Images\ppl\goos2.jpg">
+	  <h3>text goes here</h3>
+	</td>
+      </table>
+      <p>
+	this is my bio
+      </p>
+    </div>
+    <!-------------------------Projects------------------------------>
+    <div id = "Projects" class="content">
+      <div class = "banner">
+	<h1 class="rainbowEggTXT">Projects Gallery</h1>
+      </div>
+      <!--projects picker-->
+      <table>
+	<tr><!--CREATED ROW OF 3-->
+	  <td>
+	    <h3 >In the Zone Sim</h3>
+	    <p>A fairly complex, 2 dimentional, fully C++ built, Vex robotics simulation. </p>
+	  </td>
+	  <td>
+	    <h3 >Tennis Simulation</h3>
+	    <p>Two fully automated tennis players, playing tirelessly forever. </p>
+	  </td>
+	  <td>
+	    <h3 >DoseMaster</h3>
+	    <p>We built this contraption to prevent pill over-dosage and forgetfulness.</p>
+      	  </td>
+	<tr><!--CREATED ROW OF 3-->
+	  <td>
+	    <h3 >5327D Robot</h3>
+	    <p>Our meta robot for last year's Vex StarStruck game. It was very OP. </p>
+	  </td>
+	  <td>
+	    <h3 >The Goosinator</h3>
+	    <p>My personal rig housing a GTX 1070, I7 6700 @ 4Ghz, 16Gb DDR4 and more.</p>
+	  </td>
+	  <td>
+	    <h3 >Macuarium</h3>
+	    <p>Fun little side project with my pals, primarily built to advertise our tech club.</p>
+	  </td>
+	<tr><!--CREATED ROW OF 3-->
+	  <td>
+	    <h3 >Vex TruSpeed Sim</h3>
+	    <p>A simpler simulation showing logarithmic TruSpeed and an X-drive's controls.</p>
+	  </td>
+	  <td>
+	    <h3 >5327C Robot</h3>
+	    <p>My team's robot for this year's Vex robotics game, In the Zone. </p>
+	  </td>
+	  <td>
+	    <h3 >NetLogo Winch</h3>
+	    <p>Simulation of physical POE winch mechanism project. Here's just the code.</p>
+	  </td>
+      </table>
+    </div>
+    <!-------------------------Resume------------------------------>
+    <div id = "Resume" class="content" style="height: 110vh">
+      <div class = "banner">
+	<h1 class="rainbowEggTXT"> Resume</h1>
+	<a href="http://docs.google.com/document/d/10JuBuBlFvSccuIK-6Rl4sRkbrtrN2PvSkdGoooMd3c8/export?format=pdf" target="_blank" style="color: blue"> Download PDF </a>
+      </div>
+      <center>
+	<div class="resumeWrapper">
+	  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSCn9c227WhAffcpBNPUMV_to9vFDO165Iuc3zbmjCFCZIqflM5BSbhR12ySkmnvzySVCS4L-Obau7v/pub?embedded=true" width="50%" height="100%" frameborder='0' scrolling='no' style = "border: 2px solid #000">  
+	  </iframe>
+	</div>
+      </center>
+    </div>
+    <!-------------------------Contact------------------------------>
+    <!--<div id = "Contact" class="content">
+	<div class = "banner">
+	  <h1 class="rainbowEggTXT">Contact</h1>
+	</div>
+    </div>-->
+
+    <script>
+      function easter() {
+	  document.getElementById("rainbowEgg").setAttribute("style","opacity: 1;");
+	  var elements = document.getElementsByClassName("rainbowEggTXT");
+	  for(var i=0; i<elements.length; i++) {
+	      elements[i].setAttribute("style", "-webkit-animation: rgbTXT 20s infinite;");
+	      elements[i].setAttribute("style", "animation: rgbTXT 20s infinite;");
+	  }
+      }
+    </script>
+
+    <footer id="footer">
+      <center>
+	<table>
+	  <br>
+	  <td style = "padding-right: 14vmin;">
+	    <p id = "header" class = "rainbowEggTXT">
+	      Contact<br>
+	    </p>
+	    <table>
+	      <tr>
+		<td style="width: 50%;">
+		  <p>Personal Email:<br></p>
+		</td>
+		<td>
+		  <p><a href="mailto:grs5382@gmail.com">grs5382@gmail.com</a><br></p>
+		</td>
+	    </table>
+	  </td>
+	  <td>
+	    <p id = "header" class = "rainbowEggTXT">
+	      Social Media
+	    </p>
+	    <table>
+	      <tr>
+		<td>
+	    	  <p>
+		    <a href="#" target="_blank"><img src="Images/discord.png"></a><br>
+		    <a href="#" target="_blank"><img src="Images/github.png"></a><br>
+		  </p>
+		</td>
+		<td>
+		  <p>
+		    <a href="#" target="_blank"><img src="Images/facebook.png"></a><br>
+		    <a href="#" target="_blank"><img src="Images/twitter.png"></a><br>
+		  </p>
+		</td>
+		<td>
+		  <p>
+		    <a href="#" target="_blank"><img src="Images/youtubber.png"></a><br>
+		    <a href="#" target="_blank"><img src="Images/instagram.png"></a><br>
+		  </p>
+		</td>
+	    </table>
+	  </td>
+	</table>
+      </center>
+    </footer>
+  </body>
+</html>
