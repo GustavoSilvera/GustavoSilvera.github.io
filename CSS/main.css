@@ -256,6 +256,14 @@ a {
     height: 100%;
 }
 
+#Resume a{
+    text-decoration: underline;
+    color: #0645AD;
+}
+#Resume a:hover{
+    text-decoration: underline;
+    color: #7700ff;
+}
 /**************************** Footer *****************************/
 
 #footer{
