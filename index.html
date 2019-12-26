@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="icon" type="image/png" href="Images/icon.png">
+    <link rel="icon" type="image/png" href="Images/me/goose.png">
     <link rel="stylesheet" href="CSS/main.css">
     <!--<link rel="stylesheet" href="CSS/animate.css">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -40,17 +40,23 @@
     </nav>-->
     
     <!-------------------------Intro------------------------------>
-    <div id = "Intro" class="content">
+    <div id = "Intro" class="content" style="height: 70vh">
       <div class = "banner" >
-	<h1 class="rainbowEggTXT"> Gustavo Silvera </h1>
+	<h1 class="rainbowEggTXT"> Gustavo Silvera 
+	  <img src = "Images/me/goose.png" align="center">
+	</h1>
       </div>
-      <p>
-	Hello there! I'm Gustavo Silvera, welcome to my personal website. I'm currently a freshman in my second semester at Carnegie Mellon University's School of Computer Science, where I'm considering majoring in either Computer Science or Artificial Intelligence. 
-      </p>
+      <table>
+	<td>
+	  <p>
+	    Hello there! I'm Gustavo Silvera, welcome to my personal website. I'm currently a freshman in my second semester at Carnegie Mellon University's School of Computer Science, where I'm considering majoring in either Computer Science or Artificial Intelligence.
+	  </p>
+	</td>
+      </table>
     </div>
     
     <!-------------------------About------------------------------>
-    <div id = "About" class="content">
+    <div id = "About" class="content" style="height: 110%;">
       <div class = "banner" >
 	<h1 class="rainbowEggTXT"> About </h1>
       </div>
@@ -58,66 +64,109 @@
 	<tr>
 	  <td>
 	    <h2>About Gustavo</h2>
-	    probably can expand more about my Bio here. 
+	    <p>
+	      <img src = "Images/me/Grobot.png" style="float: left; width: 25%">
+	      <img src="Images/me/ProfPic.jpg" style="float: right; width: 15%"> 
+	      Gustavo is currently a Freshman completing his second semester at Carnegie Mellon University. Gustavo currently lives in Dublin, California after moving from Toronto in late 2013.
+	    </p>
 	  </td>
 	<tr>
 	  <td>
-	    <img src="Images\ppl\goos2.jpg">
-	    <h2>My time at Carnegie Mellon University</h2>
-	    <p>talk about CMU and how awesome it was here. </p>
+	    <h2>
+	      My time at Carnegie Mellon University
+	    </h2>
+	    <p>
+	      talk about CMU and how awesome it was here.
+	      <img src="Images/icons/scs.png" style="float: right; width: 10%;">
+	    </p>
 	  </td>
 	<tr>
 	  <td>
 	    <h2>Other stuff?</h2>
-	    <p>In his free time, Gustavo loves playing tennis, super smash brothers, and learning new skills. </p>
+	    <p>
+	      In his free time, Gustavo loves playing tennis, super smash brothers, and learning new skills.
+	      <img src = "Images/me/serve.png" style="float: right;">
+	    </p>
 	  </td>
       </table>
     </div>
     <!-------------------------Projects------------------------------>
-    <div id = "Projects" class="content">
+    <div id = "Projects" class="content" style="height: 110%">
       <div class = "banner">
 	<h1 class="rainbowEggTXT">Projects Gallery</h1>
+	<p>hover over projects to preview</p>
       </div>
       <!--projects picker-->
       <table>
 	<tr><!--CREATED ROW OF 3-->
 	  <td>
-	    <h3 >In the Zone Sim</h3>
-	    <p>A fairly complex, 2 dimentional, fully C++ built, Vex robotics simulation. </p>
+	    <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+	      <source src="Images/proj/sporsh.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	    </video>
+	    <h3> Game Bytes Sporshmallow</h3>
+	    <p>Building a Smash Bros-like arcade game with a team of students in CMU’s Game Creation Society.</p>
 	  </td>
 	  <td>
-	    <h3 >Tennis Simulation</h3>
-	    <p>Two fully automated tennis players, playing tirelessly forever. </p>
+	    <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+	      <source src="Images/proj/net.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	    </video>
+	    <h3>Graphical Machine Learning</h3>
+	    <p>A 2D visualization of a Convolutional Neural Network using C++ and OpenFrameworks2D </p>
 	  </td>
 	  <td>
-	    <h3 >DoseMaster</h3>
-	    <p>We built this contraption to prevent pill over-dosage and forgetfulness.</p>
+	    <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+	      <source src="Images/proj/plaid.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	    </video>
+	    <h3>Epicycle Drawing</h3>
+	    <p>Graphical animation of Discrete Fourier Series approximations of complex-valued functions. </p>
       	  </td>
 	<tr><!--CREATED ROW OF 3-->
 	  <td>
-	    <h3 >5327D Robot</h3>
-	    <p>Our meta robot for last year's Vex StarStruck game. It was very OP. </p>
+	    <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+	      <source src="Images/proj/tennis.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	    </video>
+	    <h3>Tennis Simulation</h3>
+	    <p>Virtualized computer simulation of a tennis match with adaptive Machine Learning. </p>
 	  </td>
 	  <td>
-	    <h3 >The Goosinator</h3>
-	    <p>My personal rig housing a GTX 1070, I7 6700 @ 4Ghz, 16Gb DDR4 and more.</p>
+	    <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+	      <source src="Images/proj/pi.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	    </video>
+
+	    <h3>Pi Collider</h3>
+	    <p>Graphical simulation of idealized block collisions with inspiration from 3blue1brown's video.</p>
 	  </td>
 	  <td>
-	    <h3 >Macuarium</h3>
-	    <p>Fun little side project with my pals, primarily built to advertise our tech club.</p>
+	    <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+	      <source src="Images/proj/vex.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	    </video>
+	    <h3>Vex Robotics Simulation</h3>
+	    <p>Graphical simulation for the VEX Robotics 2017-18 competition “In the Zone” </p>
 	  </td>
 	<tr><!--CREATED ROW OF 3-->
 	  <td>
-	    <h3 >Vex TruSpeed Sim</h3>
-	    <p>A simpler simulation showing logarithmic TruSpeed and an X-drive's controls.</p>
+	    <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+	      <source src="Images/proj/mac.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	    </video>
+	    <h3>Macuarium</h3>
+	    <p>A fun weekend projects converting a broken imac into a functional RGB aquarium.</p>
 	  </td>
 	  <td>
-	    <h3 >5327C Robot</h3>
-	    <p>My team's robot for this year's Vex robotics game, In the Zone. </p>
+	    <img src = "Images/proj/net.gif">
+	    <h3>VEX 5327C Robot</h3>
+	    <p>Our competition robot for Junior year in High School (Dublin High 2017-18)</p>
 	  </td>
 	  <td>
-	    <h3 >NetLogo Winch</h3>
-	    <p>Simulation of physical POE winch mechanism project. Here's just the code.</p>
+	    <img src = "Images/proj/net.gif">
+	    <h3>VEX 139A Robot</h3>
+	    <p>My last competition robot for Senior year in High School (Dublin High 2018-19)</p>
 	  </td>
       </table>
     </div>
