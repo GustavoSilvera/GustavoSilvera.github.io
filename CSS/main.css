@@ -157,6 +157,9 @@ a {
 .content p {
     font-size: 1.4em;
 }
+.content img{
+    border: 3px solid #000;
+}
 .content h1{
     font-family: Open Sans, Arial;
     font-size: 3em;
@@ -182,18 +185,29 @@ a {
 /***************INTRO*****************/
 #Intro{
     margin: auto;
-    padding-top: 16.5%;
+    padding-top: 30vh;
     background-color: #fff;
     font-size: 2vh;
+    width: 90%;
 }
 #Intro h1{
     font-size:6vh;
     font-weight: bold;
 }
 #Intro img{
-    width: 30%;
+    width: 5%;
     height: auto;
 }
+#Intro p{
+    margin: auto;
+}
+#Intro td{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
 /***************ABOUT*****************/
 #About table{
     width:90%;
@@ -204,10 +218,12 @@ a {
 }
 #About table, th, td {
     margin: auto;
-    border: 1px solid black;
+    border: 0px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 #About img{
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 /**************PROJECTS***********/
@@ -221,13 +237,17 @@ a {
     width: 30%;
     text-align: center;
     transition-duration: 0.4s;
-    background-color: #fff;
     z-scale:1;
     padding: 1vh;
 }
 #Projects p{
     color: #000;
     font-size: 2vh;
+}
+#Projects img, video{
+    width: 80%;
+    object-fit: cover;
+    height: 22vh;
 }
 #Projects td:hover{
     position:relative;
