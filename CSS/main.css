@@ -241,13 +241,13 @@ a {
     width: 30%;
     text-align: center;
     transition-duration: 0.4s;
-    z-scale:10;
+
     padding: 1%;
     display:inline-block; /*USE THIS TO RESIZE TABLES*/
 }
 #Projects a{
     text-decoration: none;
-    z-scale: 10;
+
 }
 #Projects p{
     color: #000;
@@ -262,7 +262,7 @@ a {
     position:relative;
     transform: scale(1.1);
     background-color:#202020;
-    z-scale: 10 !important;
+
 }
 #Projects td:hover p{
     color:#fff;
