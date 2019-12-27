@@ -40,7 +40,7 @@
     </nav>-->
     
     <!-------------------------Intro------------------------------>
-    <div id = "Intro" class="content" style="height: 70vh">
+    <div id = "Intro" class="content" style="height: 70vh;">
       <div class = "banner" >
 	<h1 class="rainbowEggTXT"> Gustavo Silvera 
 	  <img src = "Images/me/goose.png" align="center">
@@ -102,7 +102,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/Sporshmallow" target="_blank" style="z-index: 100;">
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline>
 		  <source src="Images/proj/sporsh.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -114,7 +114,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/ConvNeuralNet" target="_blank" style="z-index: 100;">
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline>
 		  <source src="Images/proj/net.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -126,7 +126,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/FourierDraw" target="_blank" style="z-index: 100;">
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline>
 		  <source src="Images/proj/plaid.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -139,7 +139,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/MLTennis" target="_blank" style="z-index: 100;">
 	      <div>	
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline>
 		  <source src="Images/proj/tennis.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -151,7 +151,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/PiCollisionSim" target="_blank" style="z-index: 100;">
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline>
 		  <source src="Images/proj/pi.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -163,7 +163,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/Vex_2018_Simulation" target="_blank" style="z-index: 100;">
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline>
 		  <source src="Images/proj/vex.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -176,7 +176,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/Sporshmallow" target="_blank" style="z-index: 100;">
 	      <div>	
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop muted>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline>
 		  <source src="Images/proj/mac.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -211,13 +211,12 @@
 	<h1 class="rainbowEggTXT"> Resume</h1>
 	<a href="http://docs.google.com/document/d/10JuBuBlFvSccuIK-6Rl4sRkbrtrN2PvSkdGoooMd3c8/export?format=pdf" target="_blank" > Download PDF </a>
       </div>
-      <center>
-	<div class="resumeWrapper">
-	  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSCn9c227WhAffcpBNPUMV_to9vFDO165Iuc3zbmjCFCZIqflM5BSbhR12ySkmnvzySVCS4L-Obau7v/pub?embedded=true" width="50vmin" height="80vmin" frameborder='0' scrolling='yes' style = "border: 2px solid #000">  
-	  </iframe>
-	</div>
-      </center>
+      <div class="resumeWrapper">
+	<iframe src="https://docs.google.com/document/d/e/2PACX-1vSCn9c227WhAffcpBNPUMV_to9vFDO165Iuc3zbmjCFCZIqflM5BSbhR12ySkmnvzySVCS4L-Obau7v/pub?embedded=true" view="Fit">  
+	</iframe>
+      </div>
     </div>
+    
     <!-------------------------Contact------------------------------>
     <!--<div id = "Contact" class="content">
 	<div class = "banner">
@@ -238,16 +237,16 @@
 
     <footer id="footer">
       <center>
-	<table>
+	<table id="outer">
 	  <br>
 	  <td style = "padding-right: 14vmin;">
 	    <p id = "header" class = "rainbowEggTXT">
 	      Contact<br>
 	    </p>
-	    <table>
+	    <table id="inner">
 	      <tr>
-		<td style="width: 50%;">
-		  <p>Personal Email:<br></p>
+		<td>
+		  <p>Personal Email:</p>
 		</td>
 		<td>
 		  <p><a href="mailto:grs5382@gmail.com">grs5382@gmail.com</a><br></p>
@@ -258,7 +257,7 @@
 	    <p id = "header" class = "rainbowEggTXT">
 	      Social Media
 	    </p>
-	    <table>
+	    <table id="inner">
 	      <tr>
 		<td>
 	    	  <p>

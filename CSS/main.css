@@ -164,11 +164,11 @@ a {
     font-family: Open Sans, Arial;
     color: #000;
     font-weight: bold;
-    font-size:6vmin;
+    font-size:5vw;
     letter-spacing: 0.5vmin;
 }
 .content #banner{
-    font-size: 2.5vmin;
+    font-size: 2.5vw;
     height: 10vmin;
     text-align: center;
     background: #333132;
@@ -188,15 +188,18 @@ a {
     margin: auto;
     padding-top: 30vh;
     background-color: #fff;
-    font-size: 2vh;
     width: 90%;
 }
 #Intro img{
     width: 5%;
     height: auto;
 }
+#Intro h1{
+    font-size: 4vw
+}
 #Intro p{
     margin: auto;
+    font-size: 1.3vw
 }
 #Intro table{
     width: 90%;
@@ -220,11 +223,18 @@ a {
 #About #left{
     width:30%;
 }
+#About p{
+    font-size: 1vw;
+}
+#About h2{
+    font-size: 1.2vw;
+}
 #About table, #About th, #About td {
     margin: auto;
     border: 0px solid black;
     padding-left: 5%;
     padding-right: 5%;
+    display: inline-block;
 }
 #About img{
     width: 20%;
@@ -274,15 +284,17 @@ a {
 }
 /**************RESUME****************/
 .resumeWrapper{
-    position: relative;
     height: 100vmin;
+    width: 42vmax;
+    text-align: center;
+    margin: 0px auto !important;
 }
 .resumeWrapper iframe{
-    position: absolute;
-    top: 0;
-    left: 25%;
-    width: 50%;
-    height: 99.5vmin;
+    width: 100%;
+    height: 99%;
+    border: 3px solid #000;
+    margin: auto;
+    display: inline-block;
 }
 
 #Resume a{
@@ -304,17 +316,23 @@ a {
     font-family: Sans-serif, Arial;
     color: white;
     font-size:2.5vmin;
-    padding:0.5vmin;
 }
-#footer table{
+#footer #outer{
     background-color: #202020;
-    width: auto;
+    width: 60vmin;
+    margin: auto;
+    border: 0px solid #fff;
+}
+#footer #inner{
+    background-color: #202020;
+    width: 10%;
     margin: auto;
     border: 0px solid #fff;
 }
 #footer td{
-    width: 10%;
+    width: 20%;
     background-color: #202020;
+/*    display:inline-block; /*USE THIS TO RESIZE TABLES*/
 }
 #footer a{
     text-decoration: underline;
