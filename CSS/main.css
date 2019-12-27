@@ -201,20 +201,41 @@ html{
     font-size: 1.3vmax;
     font-family: Oxygen;
 }
+#Intro a{
+    text-decoration: none;
+    z-index: 10;
+    transition-duration: 0.4s;
+}
+#Intro a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+#Intro #cmu{
+    color: red;
+    font-weight: bold;
+}
+#Intro #csai{
+    color: #2277FF;
+    font-weight: semi-bold;
+}
 #Intro table{
     width: 90%;
     border: 0px solid #000;
     margin: auto;
 }
 #Intro td{
-    width: 60%;
+    width: 65%;
     text-align: center;
     position: relative;
     display: block;
     margin: auto;
     border:0px solid #000;
 }
-
+#Intro #easter-notif{
+    font-size: 2vmax;
+    padding-top: 10%;
+    opacity: 0;
+}
 /***************ABOUT*****************/
 #About table{
     width:90%;
