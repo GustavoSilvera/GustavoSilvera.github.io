@@ -157,7 +157,7 @@ a {
 .content p {
     font-size: 2vmin;
 }
-.content img{
+.content img, video{
     border: 3px solid #000;
 }
 .content h1{
@@ -195,11 +195,11 @@ a {
     height: auto;
 }
 #Intro h1{
-    font-size: 4vw
+    font-size: 4vmax;
 }
 #Intro p{
     margin: auto;
-    font-size: 1.3vw
+    font-size: 1.3vmax;
 }
 #Intro table{
     width: 90%;
@@ -224,10 +224,10 @@ a {
     width:30%;
 }
 #About p{
-    font-size: 1vw;
+    font-size: 1vmax;
 }
 #About h2{
-    font-size: 1.2vw;
+    font-size: 1.2vmax;
 }
 #About table, #About th, #About td {
     margin: auto;
@@ -235,6 +235,11 @@ a {
     padding-left: 5%;
     padding-right: 5%;
     display: inline-block;
+}
+#About #introtext{
+    color: #000077;
+    font-weight:700;
+    font-size:1.3vmax;
 }
 #About img{
     width: 20%;
@@ -291,8 +296,8 @@ a {
 }
 .resumeWrapper iframe{
     width: 100%;
-    height: 99%;
-    border: 3px solid #000;
+    height: 99.5%;
+    border: 1px solid #000;
     margin: auto;
     display: inline-block;
 }
