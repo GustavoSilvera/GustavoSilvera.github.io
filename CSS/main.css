@@ -67,13 +67,8 @@ html{
     z-index: -100;
     transition: opacity 3s;
 }
-#rainbowEgg {
-    font-family:  'RoboTechGP', Open Sans, Arial;
-    -webkit-animation: rgb 20s infinite;
-    animation: rgb 20s infinite;
-    opacity:0;
-}
-.rainbowEggTXT {
+
+.egg {
     -webkit-animation: rgbTXT 0s infinite;
     animation: rgbTXT 0s infinite;
 }
@@ -154,18 +149,15 @@ html{
 .content p {
     font-size: 2vmin;
 }
-.content img, video{
+.content img, .content video{
     border: 3px solid #000;
     transition-duration: 0.4s;
 }
-.content img:hover{
-    transform: rotate(360deg);
-}
 .content h1{
-    font-family: Open Sans, Arial;
+    font-family: Oxygen, Open Sans, Arial;
     color: #000;
     font-weight: bold;
-    font-size:5vw;
+    font-size:4vw;
     letter-spacing: 0.5vmin;
 }
 .content #banner{
@@ -195,6 +187,9 @@ html{
 #Intro img{
     width: 5%;
     height: auto;
+}
+#Intro img:hover{
+    transform: rotate(360deg);
 }
 #Intro h1{
     font-size: 4vmax;
@@ -250,6 +245,7 @@ html{
     height: auto;
 }
 /**************PROJECTS***********/
+
 #Projects table{
     width: 90%;
     height: 90%;

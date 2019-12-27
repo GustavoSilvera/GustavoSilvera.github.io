@@ -13,26 +13,26 @@
   </head>
   <body>
     <nav class="main-nav" >
-      <!--<h1 class="rainbowEggTXT">Silvera</h1>-->
+      <!--<h1 class="egg">Silvera</h1>-->
       <table>
 	<td class = "bannerBtn">
 	  <a href = "#Intro">
-	    <h3 class="rainbowEggTXT" >Intro</h3>
+	    <h3 class="egg" >Intro</h3>
 	  </a>
 	</td>
 	<td class = "bannerBtn">
 	  <a href = "#Projects">
-	    <h3 class="rainbowEggTXT">Projects</h3>
+	    <h3 class="egg">Projects</h3>
 	  </a>
 	</td>
 	<td class = "bannerBtn">
 	  <a href = "#Resume">
-	    <h3 class="rainbowEggTXT">Resume</h3>
+	    <h3 class="egg">Resume</h3>
 	  </a>
 	</td>
 	<td class = "bannerBtn">
 	  <a href = "#Contact">
-	    <h3 class="rainbowEggTXT">Contact</h3>
+	    <h3 class="egg">Contact</h3>
 	  </a>
 	</td>
       </table>
@@ -41,16 +41,14 @@
     <!-------------------------Intro------------------------------>
     <div id = "Intro" class="content" style="height: 70vh;">
       <div class = "banner" >
-	<h1 class="rainbowEggTXT"> Gustavo Silvera 
-	  <img src = "Images/me/goose.png" align="center">
+	<h1 class="egg"> Gustavo Silvera
+	  <img onclick="easter()"src = "Images/me/goose.png" align="center">
 	</h1>
       </div>
       <table>
 	<td>
 	  <p>
 	    Hello there! I'm Gustavo Silvera, welcome to my personal website. I'm currently a freshman in my second semester at Carnegie Mellon University's School of Computer Science, where I'm considering majoring in either Computer Science or Artificial Intelligence (class of 2023). I enjoy programming projects, video games, and robots; and playing tennis on the side. 
-
-
 	  </p>
 	</td>
       </table>
@@ -59,7 +57,7 @@
     <!-------------------------About------------------------------>
     <!--<div id = "About" class="content" style="height: 110%;">
       <div class = "banner" >
-	<h1 class="rainbowEggTXT"> About </h1>
+	<h1 class="egg"> About </h1>
       </div>
       <table id="About">
 	<tr>
@@ -108,8 +106,9 @@
     </div>-->
     <!-------------------------Projects------------------------------>
     <div id = "Projects" class="content" style="height: 110%">
+      <line>
       <div class = "banner">
-	<h1 class="rainbowEggTXT">Projects Gallery</h1>
+	<h1 class="egg">Projects Gallery</h1>
 	<p>hover over projects to preview</p>
       </div>
       <!--projects picker-->
@@ -118,7 +117,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/Sporshmallow" target="_blank" >
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/me/ProfPic.jpg">
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/sporsh.png">
 		  <source src="Images/proj/sporsh.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -130,7 +129,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/ConvNeuralNet" target="_blank" >
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/me/ProfPic.jpg">
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/net.png">
 		  <source src="Images/proj/net.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -142,7 +141,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/FourierDraw" target="_blank" >
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/me/ProfPic.jpg">
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/plaid.png">
 		  <source src="Images/proj/plaid.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -155,7 +154,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/MLTennis" target="_blank" >
 	      <div>	
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/me/ProfPic.jpg">
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/tennis.png">
 		  <source src="Images/proj/tennis.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -167,7 +166,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/PiCollisionSim" target="_blank" >
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/me/ProfPic.jpg">
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/pi.png">
 		  <source src="Images/proj/pi.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -179,7 +178,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/Vex_2018_Simulation" target="_blank" >
 	      <div>
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/me/ProfPic.jpg">
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/vex.png">
 		  <source src="Images/proj/vex.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -192,7 +191,7 @@
 	  <td>
 	    <a href="https://github.com/GustavoSilvera/" target="_blank" >
 	      <div>	
-		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/me/ProfPic.jpg">
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/mac.png">
 		  <source src="Images/proj/mac.mp4" type="video/mp4">
 		    Your browser does not support the video tag.
 		</video>
@@ -224,7 +223,7 @@
     <!-------------------------Resume------------------------------>
     <div id = "Resume" class="content" style="height: 110%">
       <div class = "banner">
-	<h1 class="rainbowEggTXT"> Resume</h1>
+	<h1 class="egg"> Resume</h1>
 	<a href="http://docs.google.com/document/d/10JuBuBlFvSccuIK-6Rl4sRkbrtrN2PvSkdGoooMd3c8/export?format=pdf" target="_blank" > Download PDF </a>
       </div>
       <div class="resumeWrapper">
@@ -236,17 +235,18 @@
     <!-------------------------Contact------------------------------>
     <!--<div id = "Contact" class="content">
 	<div class = "banner">
-	  <h1 class="rainbowEggTXT">Contact</h1>
+	  <h1 class="egg">Contact</h1>
 	</div>
     </div>-->
 
     <script>
       function easter() {
-	  document.getElementById("rainbowEgg").setAttribute("style","opacity: 1;");
-	  var elements = document.getElementsByClassName("rainbowEggTXT");
-	  for(var i=0; i<elements.length; i++) {
-	      elements[i].setAttribute("style", "-webkit-animation: rgbTXT 20s infinite;");
-	      elements[i].setAttribute("style", "animation: rgbTXT 20s infinite;");
+	  //document.getElementById("rainbowEgg").setAttribute("style","opacity: 1;");
+	  var elements = document.getElementsByClassName("egg");
+	  var num_elements = elements.length;
+	  for(var i=0; i < num_elements; i++) {
+	      elements[i].setAttribute("style", "-webkit-animation: rgbTXT 15s infinite;");
+	      elements[i].setAttribute("style", "animation: rgbTXT 15s infinite;");
 	  }
       }
     </script>
@@ -256,7 +256,7 @@
 	<table id="outer">
 	  <br>
 	  <td style = "padding-right: 14vmin;">
-	    <p id = "header" class = "rainbowEggTXT">
+	    <p id = "header" class = "egg">
 	      Contact<br>
 	    </p>
 	    <table id="inner">
@@ -268,9 +268,10 @@
 		  <p><a href="mailto:grs5382@gmail.com">grs5382@gmail.com</a><br></p>
 		</td>
 	    </table>
+	    <p style="font-size: 1.5vmin;">If you have some free time, try to find the easter egg I've hid in this website somewhere. Its quite spinny. <p>
 	  </td>
 	  <td>
-	    <p id = "header" class = "rainbowEggTXT">
+	    <p id = "header" class = "eggy">
 	      Social Media
 	    </p>
 	    <table id="inner">
