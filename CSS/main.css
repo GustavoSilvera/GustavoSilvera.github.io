@@ -113,9 +113,10 @@ html{
     z-index: 11;
     opacity: 0.8;
 }
-.main-nav h1{
+.main-nav p{
     font-family: Oxygen, Open Sans, Arial;
     color: #fff;
+    font-size: 2vmax;
 }
 .bannerBtn{
     position: relative;
@@ -302,7 +303,6 @@ html{
     margin: auto;
     display: inline-block;
 }
-
 #Resume a{
     text-decoration: underline;
     color: #0645AD;
@@ -310,6 +310,66 @@ html{
 #Resume a:hover{
     text-decoration: underline;
     color: #7700ff;
+}
+/**************************** Contact *****************************/
+
+#Contact{
+    background-color: #fff;
+    min-height: 15vmin;
+}
+#Contact #inner{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+#Contact #banner{
+    text-align: center;
+}
+#Contact p{
+    font-family: Oxygen, Sans-serif, Arial;
+    color: #000;
+    font-size:1.5vmax;
+    float: left;
+}
+#Contact table{
+    padding-top: 5%;
+    width: 90%;
+    margin: auto;
+    border: 0px solid #fff;
+}
+#Contact th{
+    font-size: 1.1vmax;
+    font-weight: normal;
+    padding-bottom: 1%;
+    font-family: Oxygen;
+}
+#Contact td{
+    width: 5vmax;
+    display:inline-block; /*USE THIS TO RESIZE TABLES*/
+}
+#Contact a{
+    text-decoration: underline;
+    color: #0645AD;
+}
+#Contact a:hover{
+    text-decoration: underline;
+    color: #7700ff;
+}
+#Contact img{
+    float: right;
+    height:4vmax;
+    width:4vmax;
+    transition-duration: 0.2s;
+    border: 0px solid #000;
+}
+#Contact img:hover{
+    transform: scale(1.3);
+}
+#Contact #header {
+    font-size: 2.6vmin;
+    text-align: center;
+    padding-bottom: 0.2vmin;
 }
 /**************************** Footer *****************************/
 
@@ -319,7 +379,7 @@ html{
     z-index: 10;
 }
 #footer p{
-    font-family: Sans-serif, Arial;
+    font-family: Oxygen, Sans-serif, Arial;
     color: white;
     font-size:2.5vmin;
 }
@@ -331,7 +391,7 @@ html{
 }
 #footer #inner{
     background-color: #202020;
-    width: 10%;
+    width: 40%;
     margin: auto;
     border: 0px solid #fff;
 }
@@ -350,8 +410,10 @@ html{
 }
 #footer img{
     position:inherit;
-    height:8vmin;
-    width:8vmin;
+    height:6vmin;
+    width:6vmin;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
     transition-duration: 0.2s;
 }
 #footer img:hover{
