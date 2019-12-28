@@ -85,7 +85,7 @@ html{
     margin: auto;
     position:absolute;
     z-index:0;
-    opacity: 0;
+    opacity: 1;
 }
 /**************************** Header *****************************/
 .main-nav {
