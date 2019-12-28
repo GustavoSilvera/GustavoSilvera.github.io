@@ -37,12 +37,15 @@
 	</td>
       </table>
     </nav>
-    
     <!-------------------------Intro------------------------------>
+    <div id="particles-js"> </div>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
     <div id = "Intro" class="content" style="height: 70vh;">
-      <div class = "banner" >
-	<h1 class="egg"> Gustavo Silvera
-	  <img onclick="easter()"src = "Images/me/goose.png" align="center">
+      <div class = "banner">
+	<h1 class="egg" style="z-index: 2; position: relative;"> Gustavo Silvera
+	  <img onclick="easter()" src = "Images/me/goose.png" align="center">
 	</h1>
       </div>
       <table>
@@ -57,7 +60,6 @@
 	Have a great day!
       </div>
     </div>
-    
     <!-------------------------About------------------------------>
     <!--<div id = "About" class="content" style="height: 110%;">
 	<div class = "banner" >
@@ -110,119 +112,118 @@
     </div>-->
     <!-------------------------Projects------------------------------>
     <div id = "Projects" class="content" style="height: 110%">
-      <line>
-	<div class = "banner">
-	  <h1 class="egg">Projects Gallery</h1>
-	  <p>hover over projects to preview</p>
-	</div>
-	<!--projects picker-->
-	<table>
-	  <tr><!--CREATED ROW OF 3-->
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/Sporshmallow" target="_blank" >
-		<div>
-		  <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/sporsh.png">
-		    <source src="Images/proj/sporsh.mp4" type="video/mp4">
-		      Your browser does not support the video tag.
-		  </video>
-		  <h3> Game Bytes Sporshmallow</h3>
-		  <p>Building a Smash Bros-like arcade game with a team of students in CMU’s Game Creation Society.</p>
-		</div>
-	      </a>
-	    </td>
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/ConvNeuralNet" target="_blank" >
-		<div>
-		  <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/net.png">
-		    <source src="Images/proj/net.mp4" type="video/mp4">
-		      Your browser does not support the video tag.
-		  </video>
-		  <h3>Graphical Machine Learning</h3>
-		  <p>A 2D visualization of a Convolutional Neural Network using C++ and OpenFrameworks2D </p>
-		</div>
-	      </a>
-	    </td>
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/FourierDraw" target="_blank" >
-		<div>
-		  <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/plaid.png">
-		    <source src="Images/proj/plaid.mp4" type="video/mp4">
-		      Your browser does not support the video tag.
-		  </video>
-		  <h3>Epicycle Drawing</h3>
-		  <p>Graphical animation of Discrete Fourier Series approximations of complex-valued functions. </p>
-		</div>
-	      </a>
-      	    </td>
-	  <tr><!--CREATED ROW OF 3-->
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/MLTennis" target="_blank" >
-		<div>	
-		  <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/tennis.png">
-		    <source src="Images/proj/tennis.mp4" type="video/mp4">
-		      Your browser does not support the video tag.
-		  </video>
-		  <h3>Tennis Simulation</h3>
-		  <p>Virtualized computer simulation of a tennis match with adaptive Machine Learning. </p>
-		</div>
-	      </a>
-	    </td>
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/PiCollisionSim" target="_blank" >
-		<div>
-		  <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/pi.png">
-		    <source src="Images/proj/pi.mp4" type="video/mp4">
-		      Your browser does not support the video tag.
-		  </video>
-		  <h3>Pi Collider</h3>
-		  <p>Graphical simulation of idealized block collisions with inspiration from 3blue1brown's video.</p>
-		</div>
-	      </a>
-	    </td>
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/Vex_2018_Simulation" target="_blank" >
-		<div>
-		  <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/vex.png">
-		    <source src="Images/proj/vex.mp4" type="video/mp4">
-		      Your browser does not support the video tag.
-		  </video>
-		  <h3>Vex Robotics Simulation</h3>
-		  <p>Graphical simulation for the VEX Robotics 2017-18 competition “In the Zone” </p>
-		</div>
-	      </a>
-	    </td>
-	  <tr><!--CREATED ROW OF 3-->
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/" target="_blank" >
-		<div>	
-		  <video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/mac.png">
-		    <source src="Images/proj/mac.mp4" type="video/mp4">
-		      Your browser does not support the video tag.
-		  </video>
-		  <h3>Macuarium</h3>
-		  <p>A fun weekend projects converting a broken i-mac into a functional RGB aquarium.</p>
-		</div>
-	      </a>
-	    </td>
-	    <td>
-	      <a href="https://gustavosilvera.github.io/websiteGus/" target="_blank" >
-		<div>	
-		  <img src = "Images/proj/website.png">
-		  <h3>This Website</h3>
-		  <p>My very own site I've worked on over the years, I'll try to update it as best I can. Recursion FTW. </p>
-		</div>
-	      </a>
-	    </td>
-	    <td>
-	      <a href="https://github.com/GustavoSilvera/5327robotC" target="_blank" >
-		<div>
-		  <img src = "Images/proj/robot.jpg">
-		  <h3>VEX Robotics</h3>
-		  <p>My team's VEX competition robots spanning 10th-12th grade in High School. Contact for more info. </p>
-		</div>
-	      </a>
-	    </td>
-	</table>
+      <div class = "banner">
+	<h1 class="egg">Projects Gallery</h1>
+	<p>hover over projects to preview</p>
+      </div>
+      <!--projects picker-->
+      <table>
+	<tr><!--CREATED ROW OF 3-->
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/Sporshmallow" target="_blank" >
+	      <div>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/sporsh.png">
+		  <source src="Images/proj/sporsh.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+		</video>
+		<h3> Game Bytes Sporshmallow</h3>
+		<p>Building a Smash Bros-like arcade game with a team of students in CMU’s Game Creation Society.</p>
+	      </div>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/ConvNeuralNet" target="_blank" >
+	      <div>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/net.png">
+		  <source src="Images/proj/net.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+		</video>
+		<h3>Graphical Machine Learning</h3>
+		<p>A 2D visualization of a Convolutional Neural Network using C++ and OpenFrameworks2D </p>
+	      </div>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/FourierDraw" target="_blank" >
+	      <div>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/plaid.png">
+		  <source src="Images/proj/plaid.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+		</video>
+		<h3>Epicycle Drawing</h3>
+		<p>Graphical animation of Discrete Fourier Series approximations of complex-valued functions. </p>
+	      </div>
+	    </a>
+      	  </td>
+	<tr><!--CREATED ROW OF 3-->
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/MLTennis" target="_blank" >
+	      <div>	
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/tennis.png">
+		  <source src="Images/proj/tennis.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+		</video>
+		<h3>Tennis Simulation</h3>
+		<p>Virtualized computer simulation of a tennis match with adaptive Machine Learning. </p>
+	      </div>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/PiCollisionSim" target="_blank" >
+	      <div>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/pi.png">
+		  <source src="Images/proj/pi.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+		</video>
+		<h3>Pi Collider</h3>
+		<p>Graphical simulation of idealized block collisions with inspiration from 3blue1brown's video.</p>
+	      </div>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/Vex_2018_Simulation" target="_blank" >
+	      <div>
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/vex.png">
+		  <source src="Images/proj/vex.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+		</video>
+		<h3>Vex Robotics Simulation</h3>
+		<p>Graphical simulation for the VEX Robotics 2017-18 competition “In the Zone” </p>
+	      </div>
+	    </a>
+	  </td>
+	<tr><!--CREATED ROW OF 3-->
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/" target="_blank" >
+	      <div>	
+		<video autoplay onmouseover="this.play()" onmouseout="this.pause(); " loop autobuffer muted playsinline poster="Images/proj/mac.png">
+		  <source src="Images/proj/mac.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+		</video>
+		<h3>Macuarium</h3>
+		<p>A fun weekend projects converting a broken i-mac into a functional RGB aquarium.</p>
+	      </div>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="https://gustavosilvera.github.io/websiteGus/" target="_blank" >
+	      <div>	
+		<img src = "Images/proj/website.png">
+		<h3>This Website</h3>
+		<p>My very own site I've worked on over the years, I'll try to update it as best I can. Recursion FTW. </p>
+	      </div>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="https://github.com/GustavoSilvera/5327robotC" target="_blank" >
+	      <div>
+		<img src = "Images/proj/robot.jpg">
+		<h3>VEX Robotics</h3>
+		<p>My team's VEX competition robots spanning 10th-12th grade in High School. Contact for more info. </p>
+	      </div>
+	    </a>
+	  </td>
+      </table>
     </div>
     <!-------------------------Resume------------------------------>
     <div id = "Resume" class="content" style="height: 110%">
@@ -291,86 +292,86 @@
 	  </td>
       </table>
     </div>
-</div>
 
-<script>
-  function easter() {
-      //document.getElementById("rainbowEgg").setAttribute("style","opacity: 1;");
-      var elements = document.getElementsByClassName("egg");
-      var num_elements = elements.length;
-      for(var i=0; i < num_elements; i++) {
-	  elements[i].setAttribute("style", "-webkit-animation: rgbTXT 15s infinite;");
-	  elements[i].setAttribute("style", "animation: rgbTXT 15s infinite;");
+    <script>
+      function easter() {
+	  //document.getElementById("rainbowEgg").setAttribute("style","opacity: 1;");
+	  var elements = document.getElementsByClassName("egg");
+	  var num_elements = elements.length;
+	  for(var i=0; i < num_elements; i++) {
+	      elements[i].setAttribute("style", "-webkit-animation: rgbTXT 15s infinite;");
+	      elements[i].setAttribute("style", "animation: rgbTXT 15s infinite;");
+	  }
+	  document.getElementById("easter-notif").setAttribute("style", "opacity: 1;");
       }
-      document.getElementById("easter-notif").setAttribute("style", "opacity: 1;");
-  }
-</script>
+    </script>
 
-<footer id="footer">
-  <center>
-    <table id="outer">
-      <br>
-      <td style = "padding-right: 14vmin;">
-	<p id = "header" class = "egg">
-	  Contact<br>
-	</p>
-	<table id="inner">
-	  <tr>
-	    <td>
-	      <p>Feedback:</p>
-	    </td>
-	    <td>
-	      <p><a href="mailto:grs5382@gmail.com">grs5382@gmail.com</a><br></p>
-	    </td>
+    <footer id="footer">
+      <center>
+	<table id="outer">
+	  <br>
+	  <td style = "padding-right: 14vmin;">
+	    <p id = "header" class = "egg">
+	      Contact<br>
+	    </p>
+	    <table id="inner">
+	      <tr>
+		<td>
+		  <p>Feedback:</p>
+		</td>
+		<td>
+		  <p><a href="mailto:grs5382@gmail.com">grs5382@gmail.com</a><br></p>
+		</td>
+	    </table>
+	    <p style="font-size: 1.5vmin;">If you have some free time, try to find the easter egg I've hid in this website somewhere. Its quite spinny. <p>
+	  </td>
+	  <td>
+	    <p id = "header" class = "eggy">
+	      Social Media
+	    </p>
+	    <table id="inner">
+	      <tr>
+		<td>
+		  <p>
+		    <a href="https://www.linkedin.com/in/gustavosilvera/" target="_blank">
+		      <img src="Images/icons/in.png">
+		    </a>
+		    <br>
+		    <a href="https://github.com/gustavosilvera" target="_blank">
+		      <img src="Images/icons/github.png">
+		    </a>
+		    <br>
+		  </p>
+		</td>
+		<td>
+		  <p>
+		    <a href="https://discord.gg/GJhrJrw" target="_blank">
+		      <img src="Images/icons/discord.png">
+		    </a>
+		    <br>
+		    <a href="https://www.youtube.com/channel/UCi4a_fOOPiuPzTDCdeiXraw?view_as=subscriber" target="_blank">
+		      <img src="Images/icons/yt.png">
+		    </a>
+		    <br>
+		  </p>
+		</td>
+		<td>
+		  <p>
+		    <a href="https://www.facebook.com/gustavo.r.silvera" target="_blank">
+		      <img src="Images/icons/facebook.png">
+		    </a>
+		    <br>
+		    <a href="https://www.instagram.com/goose.r.s/" target="_blank">
+		      <img src="Images/icons/instagram.png">
+		    </a>
+		    <br>
+		  </p>
+		</td>
+	    </table>
+	  </td>
 	</table>
-	<p style="font-size: 1.5vmin;">If you have some free time, try to find the easter egg I've hid in this website somewhere. Its quite spinny. <p>
-      </td>
-      <td>
-	<p id = "header" class = "eggy">
-	  Social Media
-	</p>
-	<table id="inner">
-	  <tr>
-	    <td>
-	      <p>
-		<a href="https://www.linkedin.com/in/gustavosilvera/" target="_blank">
-		  <img src="Images/icons/in.png">
-		</a>
-		<br>
-		<a href="https://github.com/gustavosilvera" target="_blank">
-		  <img src="Images/icons/github.png">
-		</a>
-		<br>
-	      </p>
-	    </td>
-	    <td>
-	      <p>
-		<a href="https://discord.gg/GJhrJrw" target="_blank">
-		  <img src="Images/icons/discord.png">
-		</a>
-		<br>
-		<a href="https://www.youtube.com/channel/UCi4a_fOOPiuPzTDCdeiXraw?view_as=subscriber" target="_blank">
-		  <img src="Images/icons/yt.png">
-		</a>
-		<br>
-	      </p>
-	    </td>
-	    <td>
-	      <p>
-		<a href="https://www.facebook.com/gustavo.r.silvera" target="_blank">
-		  <img src="Images/icons/facebook.png">
-		</a>
-		<br>
-		<a href="https://www.instagram.com/goose.r.s/" target="_blank">
-		  <img src="Images/icons/instagram.png">
-		</a>
-		<br>
-	      </p>
-	    </td>
-	</table>
-      </td>
-    </table>
-  </center>
-</footer>
-</body>
+      </center>
+    </footer>
+
+  </body>
 </html>

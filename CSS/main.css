@@ -9,13 +9,7 @@
     font-weight: normal;
     font-style: normal;
 }*/
-@keyframes bgcolor {
-    0% { background-color: #000 }
-    25% { background-color: #101010 }
-    50% { background-color: #202020 }
-    75% {background-color: #303030 }
-    100% { background-color: #202020 }
-}
+
 @keyframes rgb {
     0% {background-color:#FF0000;}
     11% {background-color:#E2571E;}
@@ -60,13 +54,6 @@ html{
     background-size: normal;
     background-attachment: fixed;
 }
-.background{
-    position:fixed;
-    width:100%;
-    height:100%;
-    z-index: -100;
-    transition: opacity 3s;
-}
 
 .egg {
     -webkit-animation: rgbTXT 0s infinite;
@@ -92,6 +79,13 @@ html{
     padding: 10px;
 }
 
+#particles-js{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position:absolute;
+    z-index:0;
+}
 /**************************** Header *****************************/
 .main-nav {
     position: fixed;
@@ -181,9 +175,9 @@ html{
 #Intro{
     margin: auto;
     padding-top: 30vh;
-    background-color: #fff;
+    /*background-color: #fff;*/
     width: 90%;
-    
+    z-index:10;
 }
 #Intro img{
     width: 5%;
@@ -239,7 +233,7 @@ html{
 /***************ABOUT*****************/
 #About table{
     width:90%;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 #About #left{
     width:30%;
@@ -335,7 +329,6 @@ html{
 /**************************** Contact *****************************/
 
 #Contact{
-    background-color: #fff;
     min-height: 15vmin;
 }
 #Contact #inner{
