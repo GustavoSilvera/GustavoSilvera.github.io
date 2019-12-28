@@ -279,7 +279,13 @@ html{
 }
 #Projects a{
     text-decoration: none;
-
+}
+#Projects #hoverme{
+    text-decoration: none;
+    font-style: italic;
+}
+#Projects #hoverme:hover{
+    text-decoration: underline;
 }
 #Projects p{
     color: #000;
