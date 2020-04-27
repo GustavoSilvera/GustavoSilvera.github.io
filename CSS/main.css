@@ -262,7 +262,10 @@ html{
     height: auto;
 }
 /**************PROJECTS***********/
-
+#Projects {
+    padding-top: 5em;
+    height: 110%
+}
 #Projects table{
     width: 90%;
     height: 90%;
@@ -312,9 +315,13 @@ html{
     font-size: 3vmin;
 }
 /**************RESUME****************/
+#Resume {
+    padding-top: 5em;
+    height: 110%;
+}
 .resumeWrapper{
-    height: 100vmin;
-    width: 42vmax;
+    height: 63em;
+    width: 50em;
     text-align: center;
     margin: 0px auto !important;
 }
@@ -336,7 +343,9 @@ html{
 /**************************** Contact *****************************/
 
 #Contact{
+    padding-top: 5em;
     min-height: 15vmin;
+    height: 50vh;
 }
 #Contact #inner{
     text-align: left;
