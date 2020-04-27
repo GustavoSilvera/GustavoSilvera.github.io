@@ -270,6 +270,7 @@ html{
     width: 90%;
     height: 90%;
     margin: auto;
+    table-layout: auto;
 }
 #Projects th, #Projects td{
     margin: auto;
@@ -278,7 +279,19 @@ html{
     transition-duration: 0.4s;
 
     padding: 1%;
-    display:inline-block; /*USE THIS TO RESIZE TABLES*/
+    /*display:inline-block; /*USE THIS TO RESIZE TABLES*/
+}
+
+@media only screen and (max-width: 480px) {
+    th, td{
+        margin: auto;
+        text-align: center;
+        transition-duration: 0.4s;
+    
+        padding: 1%;
+        display:inline; /*USE THIS TO RESIZE TABLES*/
+    }
+    
 }
 #Projects a{
     text-decoration: none;
