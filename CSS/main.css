@@ -2,13 +2,6 @@ margin: 0;
     * {
     padding: 0;
 }
-/*@font-face {
-    font-family: 'RoboTechGP';
-    src: url('../Fonts/ROBOTECH_GP.ttf') format('truetype');
-    src: url('../Fonts/ROBOTECH_GP.eot') format ('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-}*/
 
 @keyframes rgb {
     0% {background-color:#FF0000;}
@@ -63,7 +56,8 @@ html{
 .content {
     z-index: 2;
     padding-top: 0px;
-    background-color: #fff;
+    background-color: #ddd;
+    height: 90vh;
 }
 .content h2, .content p {
     width: 100%;
@@ -79,14 +73,6 @@ html{
     padding: 10px;
 }
 
-#particles-js{
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    position:absolute;
-    z-index:0;
-    opacity: 0;
-}
 /**************************** Header *****************************/
 .main-nav {
     position: relative;
@@ -108,6 +94,11 @@ html{
     z-index: 11;
     opacity: 0.8;
 }
+.main-nav #current{
+    background: #777;
+    z-index: 11;
+    opacity: 0.9;
+}
 .main-nav p{
     font-family: Oxygen, Open Sans, Arial;
     color: #fff;
@@ -125,7 +116,7 @@ html{
 }
 
 .bannerBtn:hover{
-    background-color: #23201F;
+    background-color: #555;
     transform: scale(1.05);
     opacity: 1;
 }
@@ -139,7 +130,7 @@ html{
     text-align: center;
     margin: auto; /*centered*/
     width: 90%;
-    height: 100vh;
+    min-height: 80vh;
 }
 
 .content p {
@@ -174,11 +165,8 @@ html{
 }
 /***************INTRO*****************/
 #Intro{
-    margin: auto;
-    padding-top: 30vh;
-    /*background-color: #fff;*/
-    width: 90%;
-    z-index:10;
+    padding-top: 5em;
+    height: 110%
 }
 #Intro img{
     width: 5%;
@@ -292,13 +280,13 @@ html{
 }
 #Projects p{
     color: #000;
-    font-size: 2vmin;
+    font-size: 1.35vmin;
     font-family: Courier New;
 }
 #Projects img, #Projects video{
     width: 80%;
     object-fit: cover;
-    height: 22vh;
+    height: 10vh;
 }
 #Projects td:hover{
     position:relative;
@@ -312,7 +300,7 @@ html{
 #Projects h3{
     color: #00C3FF;
     font-weight: bold;
-    font-size: 3vmin;
+    font-size: 2vmin;
 }
 /**************RESUME****************/
 #Resume {
@@ -344,8 +332,7 @@ html{
 
 #Contact{
     padding-top: 5em;
-    min-height: 15vmin;
-    height: 50vh;
+    height: 110%
 }
 #Contact #inner{
     text-align: left;
@@ -362,6 +349,12 @@ html{
     font-size:1.5vmax;
     float: left;
 }
+.embeds{
+    padding-top: 10em;
+    width: 90%;
+    margin: auto;
+    border: 0px solid #fff;
+}
 #Contact table{
     padding-top: 5%;
     width: 90%;
@@ -373,6 +366,9 @@ html{
     font-weight: normal;
     padding-bottom: 1%;
     font-family: Oxygen;
+}
+#Contact i{
+    font-size:1.5vmin;
 }
 #Contact td{
     width: 5vmax;
@@ -405,7 +401,7 @@ html{
 
 #footer{
     background-color: #202020;/*no fancy colours*/
-    min-height: 15vmin;
+    min-height: 5vmin;
     z-index: 10;
 }
 #footer p{
@@ -440,8 +436,8 @@ html{
 }
 #footer img{
     position:inherit;
-    height:6vmin;
-    width:6vmin;
+    height:4vmin;
+    width:4vmin;
     padding-left: 2vmin;
     padding-right: 2vmin;
     transition-duration: 0.2s;
