@@ -165,10 +165,10 @@ html{
     height: 110%
 }
 #Intro img{
-    width: 5%;
+    width: 70%;
     height: auto;
 }
-#Intro img:hover{
+#eggsy:hover{
     transform: rotate(360deg);
 }
 #Intro h1{
@@ -199,16 +199,16 @@ html{
 }
 #Intro table{
     width: 90%;
-    border: 0px solid #000;
+    border: 0px;
     margin: auto;
 }
 #Intro td{
     width: 65%;
     text-align: center;
-    position: relative;
-    display: block;
+    /* position: relative; */
+    /* display: block; */
     margin: auto;
-    border:0px solid #000;
+    border:0px;
 }
 #Intro #easter-notif{
     font-size: 2vmax;
