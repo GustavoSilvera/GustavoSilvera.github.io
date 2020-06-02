@@ -257,7 +257,7 @@ html{
 }
 #Projects th, #Projects td{
     margin: auto;
-    width: 30%;
+    width: 30vw;
     text-align: center;
     transition-duration: 0.4s;
 
@@ -276,13 +276,13 @@ html{
 }
 #Projects p{
     color: #000;
-    font-size: 1.35vmin;
+    font-size: 1.35vw;
     font-family: Courier New;
 }
 #Projects img, #Projects video{
-    width: 80%;
+    width: 23vw;
     object-fit: cover;
-    height: 10vh;
+    height: 10vw;
 }
 #Projects td:hover{
     position:relative;
@@ -295,7 +295,7 @@ html{
 #Projects h3{
     color: #00C3FF;
     font-weight: bold;
-    font-size: 2vmin;
+    font-size: 2vw;
 }
 /**************RESUME****************/
 #Resume {
