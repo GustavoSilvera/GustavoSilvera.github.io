@@ -26,7 +26,7 @@
 body{
    /* font-family:  'RoboTechGP', Open Sans, Arial;*/
     overflow-x: hidden;
-    background-color: #202020;
+    background-color: #FFF;
    /* -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 5s infinite;
     -webkit-animation-direction: alternate;
@@ -52,7 +52,7 @@ html{
 .content {
     z-index: 2;
     padding-top: 0px;
-    background-color: #ddd;
+    background-color: #fff;
     height: 90vh;
 }
 .content h2, .content p {
@@ -87,7 +87,7 @@ html{
     margin: auto;
 }
 .main-nav {
-    background: #050505;
+    background: #fff;
     z-index: 11;
     opacity: 0.8;
 }
@@ -96,29 +96,16 @@ html{
 }
 .main-nav p{
     font-family: Oxygen, Open Sans, Arial;
-    color: #fff;
+    color: #000;
     font-size: 2vmax;
 }
-.bannerBtn{
-    position: relative;
-    margin: 0;
+.main-nav p:hover{
     font-family: Oxygen, Open Sans, Arial;
-    color: #fff;
-    text-align: center;
-    transition-duration: 0.1s;
-    font-size: 3vmin;
-}
-.bannerBtn a{
-    display:block;
-	height:100%;
-	width:100%;
-}
-.bannerBtn a:hover{
-    /* background-color: #555; */
-    /* transform: scale(1.05); */
+    color: #000;
     text-decoration: underline;
-    /* opacity: 1; */
+    font-size: 2vmax;
 }
+
 
 /**************************** Content *****************************/
 
