@@ -275,8 +275,8 @@ h1 {
     font-weight: bold;
     font-size: 2vw;
 }
-/**************RESUME****************/
-#Resume {
+/**************Experience****************/
+#Experience {
     padding-top: 5em;
     height: 110%;
 }
@@ -293,14 +293,14 @@ h1 {
     margin: auto;
     display: inline-block;
 }
-#Resume a{
-    font-size: 1.2vw;
+#Experience a{
+    font-size: 1.5vw;
     text-decoration: none;
+    color: #2277FF;
     z-index: 10;
     transition-duration: 0.4s;
-    font-color: #2277FF;
 }
-#Resume a:hover{
+#Experience a:hover{
     transform: scale(1.1);
     text-decoration: underline;
 }
