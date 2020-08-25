@@ -26,7 +26,7 @@
 body{
    /* font-family:  'RoboTechGP', Open Sans, Arial;*/
     overflow-x: hidden;
-    background-color: #FFF;
+    background-color: #111;
    /* -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 5s infinite;
     -webkit-animation-direction: alternate;
@@ -38,6 +38,12 @@ a {
 }
 html{
   scroll-behavior: smooth; /*only works in chrome*/
+}
+p {
+    color: #FFF;
+}
+h1 {
+    color: #FFF;
 }
 .intro {
     background-size: normal;
@@ -52,7 +58,6 @@ html{
 .content {
     z-index: 2;
     padding-top: 0px;
-    background-color: #fff;
     height: 90vh;
 }
 .content h2, .content p {
@@ -87,7 +92,6 @@ html{
     margin: auto;
 }
 .main-nav {
-    background: #fff;
     z-index: 11;
     opacity: 0.8;
 }
@@ -96,12 +100,10 @@ html{
 }
 .main-nav p{
     font-family: Oxygen, Open Sans, Arial;
-    color: #000;
     font-size: 2vmax;
 }
 .main-nav p:hover{
     font-family: Oxygen, Open Sans, Arial;
-    color: #000;
     text-decoration: underline;
     font-size: 2vmax;
 }
@@ -116,7 +118,6 @@ html{
     width: 90%;
     min-height: 80vh;
 }
-
 .content p {
     font-size: 2vmin;
 }
@@ -126,7 +127,6 @@ html{
 }
 .content h1{
     font-family: Oxygen, Open Sans, Arial;
-    color: #000;
     font-weight: bold;
     font-size:4vw;
     letter-spacing: 0.5vmin;
@@ -137,7 +137,6 @@ html{
     text-align: center;
     background: #333132;
 }
-
 .content #header {
     vertical-align: top;
     display: inline-block;
@@ -206,7 +205,6 @@ html{
 /***************ABOUT*****************/
 #About table{
     width:90%;
-    /*background-color: #fff;*/
 }
 #About #left{
     width:30%;
@@ -223,11 +221,6 @@ html{
     padding-left: 5%;
     padding-right: 5%;
     display: inline-block;
-}
-#About #introtext{
-    color: #000077;
-    font-weight:700;
-    font-size:1.3vmax;
 }
 #About img{
     width: 20%;
@@ -248,9 +241,7 @@ html{
     width: 30vw;
     text-align: center;
     transition-duration: 0.4s;
-
     padding: 0%;
-    /*display:inline-block; /*USE THIS TO RESIZE TABLES*/
 }
 #Projects a{
     text-decoration: none;
@@ -263,7 +254,6 @@ html{
     text-decoration: underline;
 }
 #Projects p{
-    color: #000;
     font-size: 1.35vw;
     font-family: Courier New;
 }
@@ -285,13 +275,13 @@ html{
     font-weight: bold;
     font-size: 2vw;
 }
-/**************RESUME****************/
-#Resume {
+/**************Experience****************/
+#Experience {
     padding-top: 5em;
     height: 110%;
 }
 .resumeWrapper{
-    height: 60em;
+    height: 61em;
     width: 50em;
     text-align: center;
     margin: 0px auto !important;
@@ -303,13 +293,14 @@ html{
     margin: auto;
     display: inline-block;
 }
-#Resume a{
-    font-size: 1.2vw;
+#Experience a{
+    font-size: 1.5vw;
     text-decoration: none;
+    color: #2277FF;
     z-index: 10;
     transition-duration: 0.4s;
 }
-#Resume a:hover{
+#Experience a:hover{
     transform: scale(1.1);
     text-decoration: underline;
 }
@@ -319,6 +310,9 @@ html{
     padding-top: 5em;
     height: 110%
 }
+#Contact p{
+    font-size: 1.3vmax;
+}
 #Contact #inner{
     text-align: left;
     width: 50%;
@@ -327,12 +321,6 @@ html{
 }
 #Contact #banner{
     text-align: center;
-}
-#Contact p{
-    font-family: Oxygen, Sans-serif, Arial;
-    color: #000;
-    font-size:1.5vmax;
-    float: left;
 }
 #embeds{
     padding-top: 10em;
@@ -381,59 +369,6 @@ html{
     text-decoration: underline;
 }
 #Contact #header {
-    font-size: 2.6vmin;
-    text-align: center;
-    padding-bottom: 0.2vmin;
-}
-/**************************** Footer *****************************/
-
-#footer{
-    background-color: #202020;/*no fancy colours*/
-    min-height: 5vmin;
-    z-index: 10;
-}
-#footer p{
-    font-family: Oxygen, Sans-serif, Arial;
-    color: white;
-    font-size:2.5vmin;
-}
-#footer #outer{
-    background-color: #202020;
-    width: 60vmin;
-    margin: auto;
-    border: 0px solid #fff;
-}
-#footer #inner{
-    background-color: #202020;
-    width: 40%;
-    margin: auto;
-    border: 0px solid #fff;
-}
-#footer td{
-    width: 20%;
-    background-color: #202020;
-/*    display:inline-block; /*USE THIS TO RESIZE TABLES*/
-}
-#footer a{
-    text-decoration: underline;
-    color: #0645AD;
-}
-#footer a:hover{
-    text-decoration: underline;
-    color: #7700ff;
-}
-#footer img{
-    position:inherit;
-    height:4vmin;
-    width:4vmin;
-    padding-left: 2vmin;
-    padding-right: 2vmin;
-    transition-duration: 0.2s;
-}
-#footer img:hover{
-    transform: scale(1.5,1.5);
-}
-#footer #header {
     font-size: 2.6vmin;
     text-align: center;
     padding-bottom: 0.2vmin;
