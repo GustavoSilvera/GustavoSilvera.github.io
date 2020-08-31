@@ -40,10 +40,10 @@ html{
   scroll-behavior: smooth; /*only works in chrome*/
 }
 p {
-    color: #FFF;
+    color: #ddd;
 }
 h1 {
-    color: #FFF;
+    color: #ddd;
 }
 .intro {
     background-size: normal;
