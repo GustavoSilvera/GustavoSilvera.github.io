@@ -256,6 +256,7 @@ h1 {
 #Projects p{
     font-size: 1.35vw;
     font-family: Courier New;
+    margin-bottom: 1em;
 }
 #Projects img, #Projects video{
     width: 23vw;
@@ -264,7 +265,7 @@ h1 {
 }
 #Projects td:hover{
     position:relative;
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color:#202020;
 }
 #Projects td:hover p{
@@ -274,6 +275,8 @@ h1 {
     color: #00C3FF;
     font-weight: bold;
     font-size: 2vw;
+    margin-top: -0.1em;
+    margin-bottom: -0.05em;
 }
 /**************Experience****************/
 #Experience {
