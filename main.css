@@ -191,7 +191,7 @@ h1 {
 }
 #Intro td{
     width: 65%;
-    text-align: center;
+    text-align: left;
     /* position: relative; */
     /* display: block; */
     margin: auto;
